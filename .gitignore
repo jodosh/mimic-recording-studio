@@ -31,3 +31,4 @@ tmp/
 logs
 __pycache__
 build/
+venv/
