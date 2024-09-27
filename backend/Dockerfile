@@ -1,5 +1,5 @@
 # TODO
-FROM python:3.13.0rc2
+FROM python:3.13.0rc2-slim
 
 COPY requirements.txt /src/
 WORKDIR /src
