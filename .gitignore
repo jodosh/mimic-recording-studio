@@ -32,3 +32,5 @@ logs
 __pycache__
 build/
 venv/
+backend/error.log
+backend/access.log

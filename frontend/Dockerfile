@@ -1,5 +1,7 @@
-FROM node:22.9-bookworm-slim
+FROM opensuse/tumbleweed
 
+RUN zypper ar  --no-gpgcheck https://dl.yarnpkg.com/rpm/ Yarn
+RUN zypper in -y yarn
 WORKDIR /src/
 
 CMD ["bash", "start.sh"]
